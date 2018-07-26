@@ -1,0 +1,55 @@
+<div ng-controller="DetailsCtrl as ctrl">
+
+    <h1 class="text-center">Details</h1>
+
+    Stock:
+    <form class="form-group">
+        <select class="form-control" ng-model="ctrl.selectedStockInfo" ng-change="ctrl.onSelectedStockChange()" ng-options="stockInfo as stockInfo.Name for stockInfo in ctrl.stocksInfo"></select>
+    </form>
+    <button type="button" class="btn btn-primary" ng-click="ctrl.loadStockPricesForSymbolWithFilter(ctrl.selectedStockInfo.Symbol,'monthly')">Monthly</button>
+    <button type="button" class="btn btn-primary" ng-click="ctrl.loadStockPricesForSymbolWithFilter(ctrl.selectedStockInfo.Symbol,'weekly')">Weekly</button>
+    <button type="button" class="btn btn-primary" ng-click="ctrl.loadStockPricesForSymbolWithFilter(ctrl.selectedStockInfo.Symbol,'daily')">Daily</button>
+     <div stock-chart series="ctrl.dailyPrices.stockInfo"></div>
+    <h3>Compare Shares</h3>
+    
+  <ui-select multiple ng-model="ctrl.multiplesymbols" theme="bootstrap" close-on-select="false" style="width: 300px;" title="Choose a color">
+    <ui-select-match placeholder="Select colors...">{{$item}}</ui-select-match>
+    <ui-select-choices repeat="color in ctrl.symbols">
+      {{color}}
+    </ui-select-choices>
+  </ui-select>
+  <p>Selected: {{ctrl.multiplesymbols}}</p>
+    
+    
+    <div stock-compare series="ctrl.multiplesymbols"></div>
+    
+    <div ng-show="ctrl.selectedStockInfo" class="panel panel-info">
+        <div class="panel-heading">
+            Stock Details
+        </div>
+        <div class="panel-body">
+            <form class="form-horizontal">
+                <div class="row row-slide" ng-class="ctrl.rowAnimateClass">
+                    <label class="col-xs-2">Name</label>
+                    <span class="col-xs-10">{{ctrl.selectedStockInfo.Name}}</span>
+                </div>
+                <div class="row row-slide" ng-class="ctrl.rowAnimateClass">
+                    <label class="col-xs-2">Price</label>
+                    <span class="col-xs-10">{{ctrl.selectedStockInfo.LastSale}}</span>
+                </div>
+                <div class="row row-slide" ng-class="ctrl.rowAnimateClass">
+                    <label class="col-xs-2">Value</label>
+                    <span class="col-xs-10">{{ctrl.selectedStockInfo.MarketCap}}</span>
+                </div>
+            </form>
+
+            <div stock-chart series="ctrl.dailyPrices.stockInfo"></div>
+        </div>
+
+
+    </div>
+    
+
+    
+</div>
+

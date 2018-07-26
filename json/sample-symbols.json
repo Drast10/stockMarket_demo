@@ -1,0 +1,202 @@
+[
+     {
+   "Symbol": "AAPL",
+   "Name": "Apple Inc.",
+   "LastSale": "191.44",
+   "MarketCap": "$940.95B",
+   "IPOyear": "1980",
+   "Sector": "Technology",
+   "industry": "Computer Manufacturing",
+   "Summary Quote": "https://www.nasdaq.com/symbol/aapl"
+ }, {
+   "Symbol": "GOOG",
+   "Name": "Alphabet Inc.",
+   "LastSale": "1184.68",
+   "MarketCap": "$822.82B",
+   "IPOyear": "2004",
+   "Sector": "Technology",
+   "industry": "Computer Software: Programming, Data Processing",
+   "Summary Quote": "https://www.nasdaq.com/symbol/goog"
+ },
+    {
+   "Symbol": "BABA",
+   "Name": "Alibaba Group Holding Limited",
+   "LastSale": "187.25",
+   "MarketCap": "$480.45B",
+   "IPOyear": "2014",
+   "Sector": "Miscellaneous",
+   "industry": "Business Services",
+   "Summary Quote": "https://www.nasdaq.com/symbol/baba"
+ },
+    {
+   "Symbol": "APO",
+   "Name": "Apollo Global Management, LLC",
+   "LastSale": "35.4",
+   "MarketCap": "$14.38B",
+   "IPOyear": "2011",
+   "Sector": "Finance",
+   "industry": "Investment Managers",
+   "Summary Quote": "https://www.nasdaq.com/symbol/apo"
+ },
+ {
+   "Symbol": "PIH",
+   "Name": "1347 Property Insurance Holdings, Inc.",
+   "LastSale": "7.086",
+   "MarketCap": "$42.41M",
+   "IPOyear": "2014",
+   "Sector": "Finance",
+   "industry": "Property-Casualty Insurers",
+   "Summary Quote": "https://www.nasdaq.com/symbol/pih"
+ },
+ {
+   "Symbol": "TURN",
+   "Name": "180 Degree Capital Corp.",
+   "LastSale": "2.2136",
+   "MarketCap": "$68.89M",
+   "IPOyear": "n/a",
+   "Sector": "Finance",
+   "industry": "Finance/Investors Services",
+   "Summary Quote": "https://www.nasdaq.com/symbol/turn"
+ },
+ {
+   "Symbol": "FLWS",
+   "Name": "1-800 FLOWERS.COM, Inc.",
+   "LastSale": "13.45",
+   "MarketCap": "$868.92M",
+   "IPOyear": "1999",
+   "Sector": "Consumer Services",
+   "industry": "Other Specialty Stores",
+   "Summary Quote": "https://www.nasdaq.com/symbol/flws"
+ },
+ {
+   "Symbol": "FCCY",
+   "Name": "1st Constitution Bancorp (NJ)",
+   "LastSale": "21.8",
+   "MarketCap": "$182.32M",
+   "IPOyear": "n/a",
+   "Sector": "Finance",
+   "industry": "Savings Institutions",
+   "Summary Quote": "https://www.nasdaq.com/symbol/fccy"
+ },
+ {
+   "Symbol": "SRCE",
+   "Name": "1st Source Corporation",
+   "LastSale": "57.42",
+   "MarketCap": "$1.49B",
+   "IPOyear": "n/a",
+   "Sector": "Finance",
+   "industry": "Major Banks",
+   "Summary Quote": "https://www.nasdaq.com/symbol/srce"
+ },
+ {
+   "Symbol": "VNET",
+   "Name": "21Vianet Group, Inc.",
+   "LastSale": "11.13",
+   "MarketCap": "$1.25B",
+   "IPOyear": "2011",
+   "Sector": "Technology",
+   "industry": "Computer Software: Programming, Data Processing",
+   "Summary Quote": "https://www.nasdaq.com/symbol/vnet"
+ },
+ {
+   "Symbol": "XXII",
+   "Name": "22nd Century Group, Inc",
+   "LastSale": "2.49",
+   "MarketCap": "$309.53M",
+   "IPOyear": "n/a",
+   "Sector": "Consumer Non-Durables",
+   "industry": "Farming/Seeds/Milling",
+   "Summary Quote": "https://www.nasdaq.com/symbol/xxii"
+ },
+ {
+   "Symbol": "TWOU",
+   "Name": "2U, Inc.",
+   "LastSale": "86.58",
+   "MarketCap": "$4.91B",
+   "IPOyear": "2014",
+   "Sector": "Technology",
+   "industry": "Computer Software: Prepackaged Software",
+   "Summary Quote": "https://www.nasdaq.com/symbol/twou"
+ },
+ {
+   "Symbol": "DDD",
+   "Name": "3D Systems Corporation",
+   "LastSale": "15",
+   "MarketCap": "$1.71B",
+   "IPOyear": "n/a",
+   "Sector": "Technology",
+   "industry": "Computer Software: Prepackaged Software",
+   "Summary Quote": "https://www.nasdaq.com/symbol/ddd"
+ },
+ {
+   "Symbol": "MMM",
+   "Name": "3M Company",
+   "LastSale": "201.95",
+   "MarketCap": "$119.9B",
+   "IPOyear": "n/a",
+   "Sector": "Health Care",
+   "industry": "Medical/Dental Instruments",
+   "Summary Quote": "https://www.nasdaq.com/symbol/mmm"
+ },
+ {
+   "Symbol": "WBAI",
+   "Name": "500.com Limited",
+   "LastSale": "14.5",
+   "MarketCap": "$601.53M",
+   "IPOyear": "2013",
+   "Sector": "Consumer Services",
+   "industry": "Services-Misc. Amusement & Recreation",
+   "Summary Quote": "https://www.nasdaq.com/symbol/wbai"
+ },
+ {
+   "Symbol": "JOBS",
+   "Name": "51job, Inc.",
+   "LastSale": "88.045",
+   "MarketCap": "$5.45B",
+   "IPOyear": "2004",
+   "Sector": "Technology",
+   "industry": "Diversified Commercial Services",
+   "Summary Quote": "https://www.nasdaq.com/symbol/jobs"
+ },
+ {
+   "Symbol": "WUBA",
+   "Name": "58.com Inc.",
+   "LastSale": "63.61",
+   "MarketCap": "$9.37B",
+   "IPOyear": "2013",
+   "Sector": "Technology",
+   "industry": "Computer Software: Programming, Data Processing",
+   "Summary Quote": "https://www.nasdaq.com/symbol/wuba"
+ },
+ {
+   "Symbol": "EGHT",
+   "Name": "8x8 Inc",
+   "LastSale": "21.95",
+   "MarketCap": "$2.04B",
+   "IPOyear": "n/a",
+   "Sector": "Public Utilities",
+   "industry": "Telecommunications Equipment",
+   "Summary Quote": "https://www.nasdaq.com/symbol/eght"
+ },
+ {
+   "Symbol": "AVHI",
+   "Name": "A V Homes, Inc.",
+   "LastSale": "21.6",
+   "MarketCap": "$483.25M",
+   "IPOyear": "n/a",
+   "Sector": "Capital Goods",
+   "industry": "Homebuilding",
+   "Summary Quote": "https://www.nasdaq.com/symbol/avhi"
+ },
+ {
+   "Symbol": "SHLM",
+   "Name": "A. Schulman, Inc.",
+   "LastSale": "42.95",
+   "MarketCap": "$1.27B",
+   "IPOyear": "1972",
+   "Sector": "Basic Industries",
+   "industry": "Major Chemicals",
+   "Summary Quote": "https://www.nasdaq.com/symbol/shlm"
+ }
+   
+]
